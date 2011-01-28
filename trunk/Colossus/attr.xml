@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="PageSwitcher">
+        <!-- Animation properties -->
+        <attr name="nextIn"      format="reference"/>
+        <attr name="nextOut"     format="reference"/>
+        <attr name="previousIn"  format="reference"/>
+        <attr name="previousOut" format="reference"/>
+        <!-- Gestures properties -->
+        <attr name="gestureLibrary" format="reference"/>
+        <attr name="previousGesture" format="string"/>
+        <attr name="nextGesture"     format="string"/>
+    </declare-styleable>
+    <declare-styleable name="SuggestMultiAutoCompleteTextView">
+        <attr name="filterOnCursorChange" format="boolean"/>
+    </declare-styleable>
+    <declare-styleable name="SwitchDrawer">
+        <!-- Additional properties -->
+        <attr name="transparent" format="boolean"/>
+        <attr name="orientation">
+            <enum name="Horizontal" value="1"/>
+            <enum name="Vertical" value="2"/>
+        </attr>
+        <!-- Animation properties -->
+        <attr name="clampAnimation" format="boolean"/>
+        <attr name="openIn"         format="reference"/>
+        <attr name="openOut"        format="reference"/>
+        <attr name="closeIn"        format="reference"/>
+        <attr name="closeOut"       format="reference"/>
+    </declare-styleable>
+</resources>

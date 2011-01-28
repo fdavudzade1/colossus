@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name=".">
+    <target name="patch-library">
+        <copyfile src="attr.xml" dest="res/values/attr.xml"/>
+    </target>
+    <target name="unpatch-library">
+        <delete file="res/values/attr.xml"></delete>
+    </target>
+</project>
