@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="pageswitcher_previous_gesture">previous</string>
+    <string name="pageswitcher_next_gesture">next</string>
+</resources>
